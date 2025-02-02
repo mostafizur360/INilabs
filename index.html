@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assests/images/icons/inilabs-monogram.avif" type="image/x-icon">
+    <title>iniLabs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/54e7a5fe8b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!--==============================NAV BAR===================
+        -->
+
+    <section class="nav_bar d-lg-block d-none  p-0 ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assests/images/icons/inilabs-logo.avif" alt="Logo" width="150" height="40"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-between " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-5 ">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PRODUCT
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">ISchool</a></li>
+                                <li><a class="dropdown-item" href="#">FoodKing</a></li>
+                                <li><a class="dropdown-item" href="#">FoodScan</a></li>
+                                <li><a class="dropdown-item" href="#">ShopKing</a></li>
+                                <li><a class="dropdown-item" href="#">Foodappi</a></li>
+                                <li><a class="dropdown-item" href="#">All Product <i
+                                            class="bi bi-arrow-right-circle-fill"></i>
+                                    </a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">HIRE US</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> SUPPORT TICKET</a></li>
+                    </ul>
+
+
+                    </ul>
+                    <form class="d-flex mx-lg-5  my-lg-0 gap-3 align-items-center " role="search">
+                        <div class="active_bx"> Active Purchase Key </div>
+                        <span class="d-block mt-3" type="submit">
+                            <p class="hover"> <i class="fa-solid fa-lock"></i> login</p>
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+
+
+
+
+
+    <!--==============================NAV BAR END===================
+                -->
+
+    <!--==============================2NAV BAR===================
+        -->
+    <section class="sec_navbar d-lg-none d-block p-0 ">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assests/images/icons/inilabs-logo.avif" alt="Logo" width="150" height="40"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="assests/images/icons/inilabs-logo.avif" alt="Logo" width="150" height="40"
+                                class="d-inline-block align-text-top">
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    PRODUCT
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">ISchool</a></li>
+                                    <li><a class="dropdown-item" href="#">FoodKing</a></li>
+                                    <li><a class="dropdown-item" href="#">FoodScan</a></li>
+                                    <li><a class="dropdown-item" href="#">ShopKing</a></li>
+                                    <li><a class="dropdown-item" href="#">Foodappi</a></li>
+                                    <li><a class="dropdown-item" href="#">All Product <i
+                                                class="bi bi-arrow-right-circle-fill"></i>
+                                        </a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">HIRE US</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"> SUPPORT TICKET</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"> <i class="fa-solid fa-lock"></i>
+                                    Login</a></li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+
+
+
+    <section class="banner">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                    <h1 class=" mt-lg-5 mt-md-5 mt-sm-3">iNiLabs is a leading global company that helps businesses to
+                        innovate and grow</h1>
+                    <p>
+                        The Infinite Innovation Accelerator. We are the maker of Goschool, QuickPass & Foodexpress &
+                        many other business ERP’s and mobile applications. Empowering 20,000+ Businesses with iNiLabs
+                        Innovation.
+                    </p>
+                    <button class="My_btn">Explore Us</button>
+                    <div class="man_img">
+                        <img src="assests/images/man-1.avif" alt="banner">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 d-md-none d-lg-block  order-1 order-lg-2 ">
+                    <img src="assests/iNiLabs-Homepage-Image2.png.webp" alt="banner">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="work">
+        <div class="container">
+            <div class="title text-center col-lg-6 mx-auto ">
+                <h1>
+                    Explore Our Work
+                </h1>
+                <p>We are proud to work with truly innovative clients and the products we truly believe in. Here are
+                    just a few of the projects we've had the privilege to work.</p>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: auto;">
+                        <img src="assests/images/work/foodscan_marketplace.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">iSchool</h5>
+                            <p class="card-text">iNiLabs is a web-based school which is an easy-to-u...</p>
+                            <a href="#" class="My_btn">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: auto;">
+                        <img src="assests/images/work/Group_1000003889.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">FoodKing</h5>
+                            <p class="card-text">Trending FoodKing - Restaurant Food Delivery System with Admin Panel
+                                &...</p>
+                            <a href="#" class="My_btn">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: auto;">
+                        <img src="assests/images/work/Group_1503.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">FoodScan</h5>
+                            <p class="card-text">Introducing FoodScan – a Contactless table ordering system and QR
+                                Menu..</p>
+                            <a href="#" class="My_btn">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: auto;">
+                        <img src="assests/images/work/Group_1503.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ShopKing</h5>
+                            <p class="card-text">Introducing ShopKing, an innovative and business...</p>
+                            <a href="#" class="My_btn">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: auto;">
+                        <img src="assests/images/work/school-express.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">foodappi</h5>
+                            <p class="card-text">Introducing “FoodAppi” revolutionizes food delivery with its
+                                progressi...</p>
+                            <a href="#" class="My_btn">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: auto; ">
+                        <img src="assests/images/work/shopking_image.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">iSchool</h5>
+                            <p class="card-text">ntroducing PosKing, An advanced and business management...</p>
+                            <a href="#" class="My_btn">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+
+        <div class="container">
+            <div class="title text-center col-lg-6 mx-auto ">
+                <h1>
+                    Our Services
+                </h1>
+                <p>We are proud to work with truly innovative clients and the products we truly believe in. Here are
+                    just a few of the projects we've had the privilege to work.</p>
+            </div>
+
+            <div class="row ">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: auto;">
+                        <img src="assests/images/service/cat-1.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">iSchool</h5>
+                            <p class="card-text">iNiLabs is a web-based school which is an easy-to-u...</p>
+                            <a href="#" class="My_btn">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: auto;">
+                        <img src="assests/images/service/cat-2.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">iSchool</h5>
+                            <p class="card-text">iNiLabs is a web-based school which is an easy-to-u...</p>
+                            <a href="#" class="My_btn">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: auto;">
+                        <img src="assests/images/service/cat-3.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">iSchool</h5>
+                            <p class="card-text">iNiLabs is a web-based school which is an easy-to-u...</p>
+                            <a href="#" class="My_btn">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: auto;">
+                        <img src="assests/images/service/cat-4.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">iSchool</h5>
+                            <p class="card-text">iNiLabs is a web-based school is easy-to-u...</p>
+                            <a href="#" class="My_btn">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="happy">
+
+        <div class="container">
+            <div class="title text-center col-lg-6 mx-auto ">
+                <h1>
+                    iNiLabs at A Glance
+                </h1>
+
+            </div>
+
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="icon">
+                        <img src="assests/images/icons/team.png.webp" alt="">
+
+                    </div>
+                    <h1> 20 <sub>+</sub></h1>
+                    <p>Team Members</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="icon">
+                        <img src="assests/images/icons/product.avif" alt="">
+
+                    </div>
+                    <h1> 17 <sub>+</sub></h1>
+                    <p>Amazing Product</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="icon">
+                        <img src="assests/images/icons/happy-customer.png.webp" alt="">
+
+                    </div>
+                    <h1> 5K <sub>+</sub></h1>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="icon">
+                        <img src="assests/images/icons/country.png.webp" alt="">
+
+                    </div>
+                    <h1> 20 <sub>+</sub></h1>
+                    <p>Countries Worldwide</p>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="contact">
+
+        <div class="container">
+            <div class="title text-center col-lg-6 mx-auto ">
+                <h1>
+                    Leave Us a Message.
+                </h1>
+                <p>Send us a message ,we will reply in shortly.</p>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-md-12 col-lg-12">
+                    <div class="contact__wrapper  white-bg">
+                        <div class="contact__form">
+                            <form method="POST">
+                                <input type="hidden" name="_token" value="3Y0t2S8KfvKCm1LKNS6W5pVZe6uvjYOccovRAk3I">
+                                <div class="row">
+                                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                        <div class="contact__input-wrapper mb-25">
+                                            <h5>First Name</h5>
+                                            <div class="contact__input">
+                                                <input type="text" placeholder="First name" name="first_name">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                        <div class="contact__input-wrapper mb-25">
+                                            <h5>Last Name</h5>
+                                            <div class="contact__input">
+                                                <input type="text" placeholder="Last name" name="last_name">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                        <div class="contact__input-wrapper mb-25">
+                                            <h5>Email</h5>
+                                            <div class="contact__input">
+                                                <input type="text" placeholder="e-mail address" name="email">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                        <div class="contact__input-wrapper mb-25">
+                                            <h5>Message</h5>
+                                            <div class="contact__input textarea">
+                                                <textarea placeholder="Tell us a bil about your project"
+                                                    name="message"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xxl-12">
+                                        <button type="submit" class="My_btn"> submit </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+    </section>
+
+    <section class="sub_banner">
+        <div class="container">
+            <div class="row ">
+                <div class="col-7 mx-auto">
+                    <div class="subscribe__content text-center wow fadeInUp" data-wow-delay=".3s">
+                        <h3 class="subscribe__title">Connect with iNiLabs Family
+                            <br>
+                        </h3>
+                        <p>Subscribe to get the latest news, updates, and offers.</p>
+                        <div class="subscribe__form wow fadeInUp" data-wow-delay=".5s">
+                            <form>
+                                <input type="email" name="email" placeholder="Email Address">
+                                <button type="submit" class="My_btn">subscribe</button>
+                            </form>
+                            <p class=" m-2 ">Over 10,000+ Buyers Trusted iNiLabs as their technical partner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape">
+                    <img src="assests/images/man.png.webp" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+
+                    <div class="footer__social ">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><a class="hover-box" href="#"><i class=" fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="hover-box" href="#"><i class=" fa-brands fa-twitter"></i></a></li>
+                            <li><a class="hover-box" href="#"><i class=" fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a class="hover-box" href="#"><i class=" fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="footer__menu">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Testimonials</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="footer__menu">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Track Order</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="footer__menu">
+                        <h3>Products</h3>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Wish List</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <hr class="mt-3" style="color: rgb(151, 151, 151);">
+            @ 2022 iNiLabs. All Rights Reserved
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
